@@ -1,0 +1,67 @@
+/*tamaño general de la pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*tamaño del cuerpo*/
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #cb232c, #ce1d61);
+}
+/*tamaño form*/
+form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgba(71, 3, 5, 0.7);
+}
+/*tamaño del titulo*/
+form .title{
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;    
+}
+/*espacios entre los tableros*/
+form label{
+    margin-bottom: 35px;
+}
+/*color a los iconos*/
+form label .fa-solid{
+    font-size: 20px;
+    color: #cb232c;
+    margin-right: 10px;
+}
+/*personalizando label de entrada*/
+form label input{
+    outline: none;
+    border: none;
+    columns: #252525;
+    border-bottom: solid 1px #ce1d61;
+    padding: 0 5px;
+    font-size: 18px;
+}
+/*mensaje del tablero mas claro*/
+form label input::placeholder{
+    color: rgba(37, 37, 37, 0.5);
+}
+/*color de los link*/
+form .link{
+    color: #252525;
+    margin-bottom: 15px;
+}
+/*cambio de color del botor y la reacion del mouse*/
+form button{
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right, #cb232c, #ce1d61);
+    cursor: pointer;
+    font-size: 20px;
+}
