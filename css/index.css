@@ -26,11 +26,40 @@ body {
 /*personalisando el encabezado*/
 header {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534) 0%, #08080881 100%), url(../la_pagina_web/logo.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534) 0%, #08080881 100%), url(../la_pagina_web/po\ fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+}
+
+.inicio {
+    padding: 50px 0;
+}
+.inicio ul {
+    margin: 0;
+    padding: 0;
+}
+
+.inicio ul li {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.inicio ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.inicio ul li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.inicio ul #menu {
+    margin-right: 40%;
+    margin-left: 100px;
 }
 
 .head {
