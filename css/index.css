@@ -96,7 +96,7 @@ header {
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, #191f38 0%, #9299a1 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -110,10 +110,16 @@ header {
     transform: translate(0);
 }
 
-.menu_principal {
+.menu_principal a{
     color: #fff;
     text-decoration: none;
+    
 }
+
+.menu_principal :hover{
+    color: black;
+}
+
 /*tamaño titulo*/
 .titulo {
     font-size: 60px;
