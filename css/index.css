@@ -35,6 +35,8 @@ header {
 
 /*.inicio {
     padding: 50px 0;
+    left: 20px;
+    top: 10px;
 }
 
 
@@ -49,7 +51,7 @@ header {
     vertical-align: middle;
 }
 
-.inicio ul li a {
+/*.inicio ul li a {
     color: #fff;
     text-decoration: none;
 }

@@ -37,6 +37,19 @@ form .title{
 form label{
     margin-bottom: 35px;
 }
+
+.menu-navegacion {
+    position: fixed;
+   left: 10px;
+   display: block;
+   top: 15px;
+}
+
+.menu-navegacion a {
+    color: yellow;
+    margin: 0;
+}
+
 /*color a los iconos*/
 form label .fa-solid{
     font-size: 20px;
