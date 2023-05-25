@@ -34,12 +34,13 @@ header {
 }
 
 /******************************** nuevo *********************/
-.inicio {
+/*.inicio {
     padding: 0;
     align-items: center;
     position: absolute;
     top: 0;
     left: 0;
+
 }
 
 .inicio ul {
@@ -53,7 +54,7 @@ header {
     vertical-align: middle;
 }
 
-.inicio ul li a {
+/*.inicio ul li a {
     color: #fff;
     text-decoration: none;
 }
@@ -100,7 +101,7 @@ header {
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, #191f38 0%, #9299a1 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -114,10 +115,16 @@ header {
     transform: translate(0);
 }
 
-.menu_principal {
+.menu_principal a{
     color: #fff;
     text-decoration: none;
+    
 }
+
+.menu_principal :hover{
+    color: black;
+}
+
 /*tamaño titulo*/
 .titulo {
     font-size: 60px;
@@ -223,44 +230,53 @@ header {
     cursor: pointer;
 }
 
-.imagen-light {
+.container-img {
     position: fixed;
-    background: rgba(0, 0, 0, .6);
-    width: 100%;
     height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
+    transform: translateX(-100%);
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(100%);
-    transition: transform .2s ease-in-out;
+    transition: transform .4s ease-in;
+}
+
+.move {
+    transform: translateX(0);  
+}
+
+.img-show {
+    height: 80%;
+    display: block;
+    object-fit: cover;
+}
+
+.copyl {
+    position: fixed;
+    color: #fff;
+    bottom: 40px;
+}
+
+.bx.bx-x {
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 .show {
     transform: translate(0);
 }
 
-.agregar-imagen {
-    object-fit: cover;
-    width: 60%;
-    border-radius: 10px;
-    transform: scale(0);
-    transition: transform .3s .2s;
-}
-
 .showImage {
     transform: scale(1);
 }
 
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 40px;
-    cursor: pointer;
-}
 
 .experts {
     display: flex;
