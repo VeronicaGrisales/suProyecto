@@ -38,6 +38,7 @@ header {
     left: 20px;
     top: 10px;
 }
+
 .inicio ul {
     margin: 0;
     padding: 0;
@@ -49,7 +50,7 @@ header {
     vertical-align: middle;
 }
 
-/*.inicio ul li a {
+.inicio ul li a {
     color: #fff;
     text-decoration: none;
 }
@@ -62,6 +63,12 @@ header {
 .inicio ul #menu {
     margin-right: 40%;
     margin-left: 100px;
+}
+
+.inicio ul #logo{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .head {
