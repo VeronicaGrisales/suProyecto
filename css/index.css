@@ -33,7 +33,7 @@ header {
     background-position: center;
 }
 
-/*.inicio {
+.inicio {
     padding: 50px 0;
     left: 20px;
     top: 10px;
@@ -41,8 +41,9 @@ header {
 
 
 .inicio ul {
-    margin: 0;
-    padding: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
 }
 
 .inicio ul li {
@@ -51,7 +52,7 @@ header {
     vertical-align: middle;
 }
 
-/*.inicio ul li a {
+.inicio ul li a {
     color: #fff;
     text-decoration: none;
 }
@@ -64,8 +65,7 @@ header {
 .inicio ul #menu {
     margin-right: 40%;
     margin-left: 100px;
-}*/
-
+}
 
 .head {
     text-align: center;
