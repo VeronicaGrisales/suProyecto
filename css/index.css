@@ -84,6 +84,7 @@ header {
     color: #fff;
 }
 
+
 .buscador {
     position: absolute;
     top: 10%;
@@ -144,6 +145,7 @@ input {
 .btn:hover {
     background: #000;
 }
+
 
 .carrito {
     position:absolute;
