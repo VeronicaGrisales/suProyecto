@@ -84,63 +84,6 @@ header {
     color: #fff;
 }
 
-.buscador {
-    position: absolute;
-    top: 10%;
-    left: 0;
-    right: 10px;
-    transform: translate(-50%,-50%);
-}
-
-input {
-    outline: none;
-    box-sizing: border-box;
-    height: 60px;
-    width: 0;
-    padding: 0 20px;
-    color: #000;
-    border-radius: 50px;
-    font-size: 20px;
-    border: 1px solid black;
-    transition: all .7s ease; 
-}
-
-::placeholder {
-    color: grey;
-}
-
-.btn {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 80px;
-    height: 80px;
-    background: black;
-    line-height: 80px;
-    border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-    transition: .5s;
-}
-
-.btn i {
-    font-size: 25px;
-    color: white;
-    line-height: 80px;
-    transition: all .7s ease;
-}
-
-.buscador:hover input {
-    width: 350px;
-}
-
-.buscador:hover i {
-    transform: rotate(-360deg);
-}
-
-.btn:hover {
-    background: #000;
-}
 
 /*configurar el icono hamburgasa*/
 .hamburger {
