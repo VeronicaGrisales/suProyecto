@@ -78,7 +78,13 @@ header {
     margin-bottom:15px;
 }
 
+.subtituloo {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 .copy {
+    margin: 3%;
     font-weight: 300;
     font-size: 25px;
 }
