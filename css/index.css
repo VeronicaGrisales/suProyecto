@@ -142,6 +142,28 @@ input {
     background: #000;
 }
 
+.carrito {
+    position:absolute;
+    font-size: 30px;
+    left: 55%;
+    margin-top: 5%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.carrito :hover {
+    color: yellow;
+}
+.carrito ::before {
+    content: 11;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
 /*configurar el icono hamburgasa*/
 .hamburger {
     position: fixed;
